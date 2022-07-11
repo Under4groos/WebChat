@@ -12,7 +12,7 @@ function SChat:CanSetServerTheme(ply)
 end
  
 function SChat.PrintF(str, ...)
-	MsgC(Color(0, 123, 255), '[Custom Chat] ', Color(255,255,255), string.format(str, ...), '\n')
+	MsgC(Color(0, 123, 255), '[Chat] ', Color(255,255,255), string.format(str, ...), '\n')
 end
 
 -- trim functions and lookup table provided by EasyChat

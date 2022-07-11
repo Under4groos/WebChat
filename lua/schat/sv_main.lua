@@ -1,8 +1,5 @@
---[[
-	SChat by StyledStrike
-]]
-resource.AddWorkshop('2799307109')
-
+ 
+ 
 util.AddNetworkString('schat.say')
 util.AddNetworkString('schat.is_typing')
 
